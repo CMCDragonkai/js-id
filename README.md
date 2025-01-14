@@ -1,8 +1,5 @@
 # js-id
 
-staging:[![pipeline status](https://gitlab.com/MatrixAI/open-source/js-id/badges/staging/pipeline.svg)](https://gitlab.com/MatrixAI/open-source/js-id/commits/staging)
-master:[![pipeline status](https://gitlab.com/MatrixAI/open-source/js-id/badges/master/pipeline.svg)](https://gitlab.com/MatrixAI/open-source/js-id/commits/master)
-
 ID generation for JavaScript & TypeScript applications.
 
 Example Usage:
@@ -101,7 +98,7 @@ npm install --save @matrixai/id
 
 ## Development
 
-Run `nix-shell`, and once you're inside, you can use:
+Run `nix develop`, and once you're inside, you can use:
 
 ```sh
 # install (or reinstall packages from package.json)
